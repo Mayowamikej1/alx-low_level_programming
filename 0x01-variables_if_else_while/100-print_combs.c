@@ -14,11 +14,11 @@ int main(void)
 	{
 		for (j = 48; j < 58; J++)
 		{
-			if (i !=J && i < j)
+			if (i != J && i < j)
 			{
 				putchar(i);
 				putchar(j);
-				if (j == 57 && i ==56)
+				if (j == 57 && i == 56)
 				{
 					break;
 				}
@@ -28,5 +28,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
