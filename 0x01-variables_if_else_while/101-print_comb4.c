@@ -14,7 +14,7 @@ int main(void)
 		{
 			for (z = 50; y < 58; y++)
 			{
-				if (z > y && y >x)
+				if (z > y && y > x)
 				{
 					putchar(x);
 					putchar(y);
