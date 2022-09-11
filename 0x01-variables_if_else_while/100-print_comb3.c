@@ -12,9 +12,9 @@ int main(void)
 
 	for (i = 48; i < 58; i++)
 	{
-		for (j = 48; j < 58; J++)
+		for (j = 48; j < 58; j++)
 		{
-			if (i != J && i < j)
+			if (i != j && i < j)
 			{
 				putchar(i);
 				putchar(j);
