@@ -23,7 +23,7 @@ int main(void)
 
 		a = b;
 		b = fib;
-		n++
+		n++;
 	}
 	while (n == 50)
 	{
