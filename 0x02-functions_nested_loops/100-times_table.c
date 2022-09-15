@@ -21,7 +21,7 @@ void print_times_table(int n)
 			{
 				int p = a * b;
 
-				_putchar(';');
+				_putchar(',');
 				_putchar(' ');
 				if (p < 10)
 				{
