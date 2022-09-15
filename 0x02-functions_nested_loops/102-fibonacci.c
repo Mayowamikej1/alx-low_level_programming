@@ -29,7 +29,7 @@ int main(void)
 	{
 		long fib = a + b;
 
-		printf("%li\n ", fib);
+		printf("%li\n", fib);
 		a = b;
 		b = fib;
 		n++;
