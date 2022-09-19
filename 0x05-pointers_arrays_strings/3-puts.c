@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  *  * _puts - function that prints a string foolowed by new line to stdout
