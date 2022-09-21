@@ -39,6 +39,8 @@ char *_strncat(char *dest, char *src, int n)
 	*(dest + ld + ls) = *(src + ls);
 	ls--;
 }
+
 	*(dest + _strlen(dest)) = '\0';
+
 	return (dest);
 }
