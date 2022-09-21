@@ -50,7 +50,7 @@ char *_strncpy(char *dest, char *src, int n)
 	while (nn > 0)
 {
 	*(dest + ls + nn) = '\0';
-																nn--;
+	nn--;
 }
 }
 	return (dest);
