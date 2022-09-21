@@ -1,26 +1,22 @@
 #include "main.h"
 
 /**
- ** leet -function that encodes a string into 1337
- ** @s: parameter of the function
- ** Return: s encode into 1337
+ ** leet - Converts to leet format
+ ** @s: string to be formatted
+ **
+ ** Return: formatted string
  */
-
 char *leet(char *s)
 {
-	int i, j, l;
-	char *letters = "aAeEoOtTlL";
-	char *code = "43071";
+	char options[] = {65, 52, 69, 51, 79, 48, 84, 55, 76, 49};
+	int i, j;
 
-	i = 0;
-	while (*(s + i))
+	for (i = 0; s[i] != '\0'; i++)
 {
-	for (j = 0; j < 10; j++)
+	for (j = 0; j < 10; j += 2)
 {
-	if (*(s + i) == *(letters + j))
-	*(s + i) = *(code + (j / 2));
-}
-	i++;
+	if (s[i] == options[j] || s[i] == options[j] + 32)
+	s[i] = options[j + 1];
 }
 	return (s);
 }
